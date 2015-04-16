@@ -1,0 +1,14 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "coffee": "github:forresto/system-coffee@^1.8.0",
+      "forresto/system-coffee": "github:forresto/system-coffee@^1.8.0",
+      "jsonp": "npm:jsonp@^0.2.0"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.87",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87"
+    }
+  }
+}
