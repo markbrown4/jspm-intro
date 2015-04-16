@@ -7,9 +7,6 @@ class RedditApi
   load: ->
     new Promise (resolve, reject)->
       jsonp @url, { param: 'jsonp' }, (err, data)->
-        if err
-          reject(err)
-        else
-          resolve(data.data.children)
+        if err then reject(err) else resolve(data.data.children)
 
 exports.RedditApi = new RedditApi()
